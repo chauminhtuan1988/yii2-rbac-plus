@@ -33,39 +33,39 @@ return [
     /* =========== Auth Item Model  =============*/
     'Name'=>'Tên',
     'Description'=>'Mô tả',
-    'Rule Name'=>'Tên Rule',
+    'Rule Name'=>'Tên quy tắc',
     'Data'=>'Data',
-    'Rule not exists'=>'Rule không tồn tại',
+    'Rule not exists'=>'Quy tắc không tồn tại',
     
     
        /* =========== Rule Manager  =============*/
     /* 1. Rule Model */
-    'Rule Name' => 'Tên Rule',// Rule Model
+    'Rule Name' => 'Tên quy tắc',// Rule Model
     'Class Name'=>'Tên class',// Rule Model   
     'Class "{className}" not exist'=>'Class "{className}" không tồn tại',
     'Class "{className}" must extends yii\rbac\Rule'=>'Class "{className}" cần phải extends yii\rbac\Rule',
     'The "{className}::\$name" is not set'=>'Biến "{className}::\$name" chưa được khai báo hoặc nó bằng null',
-    'The "{className}::\$name" is incorrect with the name of rule you have set'=>'Biến "{className}::\$name" không đúng với rule name mà bạn muốn tạo',
+    'The "{className}::\$name" is incorrect with the name of rule you have set'=>'Biến "{className}::\$name" không đúng với tên quy tắc mà bạn muốn tạo',
   
     
      /* 2. Rule Views */  
-    'Rules Manager' => 'Quản lý các rule', 
+    'Rules Manager' => 'Quản lý các quy tắc', 
        
     
     /* =========== Permisstion Manager  =============*/
     /* 1. Permisstion Model */
-    'Permission name'=>'Tên permistion',
+    'Permission name'=>'Tên quyền truy cập',
     
     /* 2. Permisstion Views */  
-    'Permisstions Manager'=>'Quản lý các permission',
+    'Permisstions Manager'=>'Quản lý các quyền truy cập',
     
     
     /* =========== Permisstion Manager  =============*/
     /* 1. Permisstion Model */
-    'Role name'=>'Tên role',
+    'Role name'=>'Tên vai trò',
     
     /* 2. Permisstion Views */  
-    'Roles Manager'=>'Quản lý các role',
+    'Roles Manager'=>'Quản lý các vai trò',
 
     /* =========== User role assignemnt  =============*/
     /* 1. Permisstion Views */      
